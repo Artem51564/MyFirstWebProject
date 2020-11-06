@@ -1,0 +1,64 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+main{
+	width: 70%;
+	padding: 50px;
+	margin: auto;
+	background-color:#fff;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.2)
+}
+@font-face {
+	font-family: Roboto;
+	src: url(..fonts/Roboto-Regular.ttf)
+}
+body{
+	background-color: #efefef;
+	font-family:  Roboto;
+}
+
+}
+.photo{
+	width:200px;
+	height: 100px;
+	background-size: contain;
+	margin:10px;
+	background-color: blue;
+	transition: all 0.5s ease;
+}
+
+.photo:hover{
+	transform: rotate(5deg) scale(1.7);
+}
+
+
+h1{
+
+	width:100%;
+	text-align: center;
+	font-size: 50px;
+}
+.photo1{
+	background-image: url(../img/img1.png);
+}
+.photo2{
+	background-image: url(../img/img2.png);
+}
+.photo3{
+	background-image: url(../img/img3.png);
+}
+
+@font-face {
+	font-family: Roboto;
+	src: url(..fonts/Roboto-Regular.ttf)
+}
+body{
+	background-color: #efefef;
+	font-family:  Roboto;
+}
+
